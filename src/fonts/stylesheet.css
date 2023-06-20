@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Sofia Sans';
+    src: url(./SofiaSans-Regular.woff2) format('woff2'),
+        url(./SofiaSans-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url(./Jura-Regular.woff2) format('woff2'),
+        url(./Jura-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceCode';
+    src: url(./SourceCodePro-Regular.woff2) format('woff2'),
+        url(./SourceCodePro-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amatic SC';
+    src: url(./AmaticSC-Regular.woff2) format('woff2'),
+        url(./AmaticSC-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'El Messiri';
+    src: url(./ElMessiri-Regular.woff2) format('woff2'),
+        url(./ElMessiri-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comforter Brush';
+    src: url(./ComforterBrush-Regular.woff2) format('woff2'),
+        url(./ComforterBrush-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bad Script';
+    src: url(./BadScript-Regular.woff2) format('woff2'),
+        url(./BadScript-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url(./Lora-Regular.woff2) format('woff2'),
+        url(./Lora-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Scandal Pro';
+    src: url(./PFScandalPro-Black.woff2) format('woff2'),
+        url(./PFScandalPro-Black.woff) format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+

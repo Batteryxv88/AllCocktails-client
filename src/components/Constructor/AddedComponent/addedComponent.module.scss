@@ -1,0 +1,40 @@
+.component {
+    display: flex;
+    
+    //flex-direction: row;
+    align-items: center;
+    //justify-content: space-between;
+    //width: fit-content;
+    height: 27px;
+    padding: 3px 12px 3px 15px;
+    //border: 1px solidred;
+    border-radius: 8px;
+    margin: 10px 10px 0 10px;
+    background-color: #8064917f;
+    //text-align: center;
+    //background-color: rgba(131, 131, 131, 0.201);
+}
+
+.name {
+    color: white;
+    margin: 0 auto;
+    font-size: 16px;
+    
+    line-height: 18px;
+    margin-bottom: 5px;
+    //text-align: center;
+}
+
+.button {
+    margin-left: 5px;
+    width: 14px;
+    height: 14px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    background-image: url(../../UI/Images/X.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

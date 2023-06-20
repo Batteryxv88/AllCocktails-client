@@ -1,0 +1,15 @@
+.button {
+  width: fit-content;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 7px;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  color: rgb(143, 100, 147);
+}

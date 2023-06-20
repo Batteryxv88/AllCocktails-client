@@ -1,0 +1,31 @@
+.component {
+  display: flex;
+  align-items: center;
+  height: 27px;
+  padding: 3px 12px 3px 15px;
+  border-radius: 8px;
+  margin: 10px 10px 0 10px;
+  background-color: rgba(128, 100, 145, 0.4980392157);
+}
+
+.name {
+  color: white;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+
+.button {
+  margin-left: 5px;
+  width: 14px;
+  height: 14px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  background-image: url(../../UI/Images/X.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 18px 0;
+}
+
+.catalog {
+  background-image: url(../../UI/Images/burger.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.find {
+  background-image: url(../../UI/Images/find.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.login {
+  background-image: url(../../UI/Images/login.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}

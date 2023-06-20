@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+  margin: 0 auto 20px;
+  border-bottom: 2px solid rgb(158, 158, 158);
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    height: 60px;
+    -webkit-box-shadow: 0px -2px 16px 6px rgba(112, 122, 163, 0.32);
+    -moz-box-shadow: 0px -2px 16px 6px rgba(112, 122, 163, 0.32);
+    box-shadow: 0px -2px 16px 6px rgba(112, 122, 163, 0.32);
+    -webkit-box-shadow: 0px -2px 16px 6px rgba(0, 0, 0, 0.32) inset;
+    -moz-box-shadow: 0px -2px 16px 6px rgba(0, 0, 0, 0.32) inset;
+    box-shadow: 0px -2px 16px 6px rgba(0, 0, 0, 0.32) inset;
+  }
+}

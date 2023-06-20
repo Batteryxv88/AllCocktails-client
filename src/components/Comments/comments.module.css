@@ -1,0 +1,59 @@
+.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  color: rgb(146, 146, 146);
+  margin: 0;
+  line-height: 40px;
+}
+
+.wrapper {
+  width: 670px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.all {
+  width: 150px;
+  height: 40px;
+  border: 2px solid rgb(146, 146, 146);
+  background-color: transparent;
+  color: rgb(146, 146, 146);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input {
+  width: 670px;
+  height: 100px;
+  background-color: transparent;
+  border: 2px solid rgb(146, 146, 146);
+  border-radius: 5px;
+  resize: none;
+  color: rgb(146, 146, 146);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.send {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid rgb(146, 146, 146);
+  color: rgb(146, 146, 146);
+  margin: 30px auto;
+}

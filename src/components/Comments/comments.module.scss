@@ -1,0 +1,62 @@
+$gray: rgb(146, 146, 146);
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  color: $gray;
+  margin: 0;
+  line-height: 40px;
+}
+
+.wrapper {
+  width: 670px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.all {
+  width: 150px;
+  height: 40px;
+  border: 2px solid $gray;
+  background-color: transparent;
+  color: $gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input {
+  width: 670px;
+  height: 100px;
+  background-color: transparent;
+  border: 2px solid $gray;
+  border-radius: 5px;
+  resize: none;
+  color: $gray;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.send {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  background-color: transparent;
+  border: 2px solid $gray;
+  color: $gray;
+  margin: 30px auto;
+}

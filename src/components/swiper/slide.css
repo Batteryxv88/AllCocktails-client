@@ -1,0 +1,22 @@
+.swiper-pagination-bullet {
+  background-color: beige;
+  
+}
+
+.slider {
+  width: 100%;
+  
+  margin: 0 auto;
+  object-fit: fill;
+  left: -40px;
+  
+}
+
+.swiper {
+  position: relative;
+  z-index: -1;
+}
+
+
+
+

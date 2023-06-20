@@ -1,0 +1,162 @@
+.card {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 3px solid #806491;
+  padding: 150px 0 0 0;
+}
+
+.wrapper0 {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  color: #fff;
+  margin: 20px auto 5px;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.wrapper1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-height: 600px;
+  border-top: 2px solid gray;
+  margin-right: 70px;
+}
+
+.panel0 {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 12px;
+}
+
+.like-img {
+  width: 21px;
+  height: 21px;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: contain;
+  z-index: 1;
+  content: url(../UI/Images/gray.png);
+  margin: 0;
+}
+
+.ike-img:hover {
+  content: url(../UI/Images/heart_active.png);
+}
+
+.description {
+  width: 90%;
+  height: 200px;
+  color: rgb(145, 145, 145);
+  font-size: 22px;
+  text-align: end;
+  margin: 60px auto 0 auto;
+  border-bottom: 2px solid gray;
+  font-size: 22px;
+}
+
+.ing {
+  color: rgb(145, 145, 145);
+  margin: 5px 0 0 10px;
+  text-align: start;
+  font-size: 20px;
+}
+
+.wrapper2 {
+  min-width: 300px;
+  font-size: 20px;
+  margin: 50px 50px 0 0;
+}
+
+.ing2 {
+  color: rgb(145, 145, 145);
+  text-align: start;
+  margin: 0;
+  font-size: 22px;
+}
+
+.wrapper3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.panel1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.control {
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  margin: 55px 0 0 0;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1280px) {
+  .ing {
+    font-size: 18px;
+  }
+  .ing2 {
+    font-size: 20px;
+  }
+  .control {
+    font-size: 12px;
+    min-width: 123px;
+  }
+  .description {
+    font-size: 20px;
+    height: 120px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .wrapper2 {
+    min-width: 260px;
+    font-size: 20px;
+    margin: 50px 50px 0 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .ing {
+    font-size: 16px;
+  }
+  .ing2 {
+    font-size: 18px;
+  }
+  .control {
+    font-size: 12px;
+  }
+  .description {
+    font-size: 18px;
+    height: 100px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .wrapper2 {
+    min-width: 270px;
+    font-size: 18px;
+    margin: 50px 50px 0 0;
+  }
+}

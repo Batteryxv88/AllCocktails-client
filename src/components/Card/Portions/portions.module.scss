@@ -1,0 +1,26 @@
+.portions {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  width: 20px;
+  height: 20px;
+  color: rgb(145, 145, 145);
+  background: transparent;
+  margin: 0;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.label {
+  margin-right: 15px;
+  color: rgb(145, 145, 145);
+}

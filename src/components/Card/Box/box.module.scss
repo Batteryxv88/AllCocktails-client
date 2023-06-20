@@ -1,0 +1,29 @@
+.box {
+  margin-top: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.label {
+  color: rgb(145, 145, 145);
+  margin-right: 15px;
+}
+
+.img {
+  background: url(../../UI/Images/box.png);
+  background-size: contain;
+  background-position-y: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .img {
+    width: 16px;
+    height: 16px;
+  }
+}
